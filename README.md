@@ -9,7 +9,7 @@ npm install
 
 cd into your project directory and in the same directory as index.js run 'openssl req -nodes -new -x509 -keyout server.key -out server.cert -days 3700'
 
-Run node index.js
+Run node 'index.js'
 
 Navigate to https://127.0.0.1:3000
 
