@@ -7,7 +7,7 @@ git clone https://github.com/AImissq/node-express-static-webserver-with-ssl-http
 
 npm install
 
-cd into your project directory and in the same directory as index.js run openssl req -nodes -new -x509 -keyout server.key -out server.cert -days 3700
+cd into your project directory and in the same directory as index.js run 'openssl req -nodes -new -x509 -keyout server.key -out server.cert -days 3700'
 
 Run node index.js
 
